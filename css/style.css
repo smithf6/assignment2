@@ -45,13 +45,15 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 float: left;
+border-style: outset;
+border-color: rgba(71, 112, 247, 0.781);
 }
 .clear {
   clear: both;
 }
 
 table {
-border:0.5px solid black;
+border:0.5px solid rgba(71, 112, 247, 0.781);
 background-color: #eeffee;
 margin-left: auto;
 margin-right: auto;
@@ -59,7 +61,7 @@ float: left;
 }
 
 th, td {
-border:0.5px solid black;
+border:0.5px solid rgba(71, 112, 247, 0.781);
 }
 p {
   padding-top: 5px;
